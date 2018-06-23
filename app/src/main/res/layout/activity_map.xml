@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="sosentoski.mcctimer.activity.MapActivity">
+
+    <Button
+            android:text="@string/construct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:id="@+id/construct_button"
+            android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/amplified_button"
+            android:layout_toStartOf="@+id/amplified_button"/>
+    <Button
+            android:text="@string/the_pit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp" android:id="@+id/thepit_button"
+            android:layout_below="@+id/construct_button" android:layout_alignLeft="@+id/construct_button"
+            android:layout_alignStart="@+id/construct_button"/>
+    <Button
+            android:text="@string/onslaught"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp" android:id="@+id/onslaught_button"
+            android:layout_below="@+id/thepit_button" android:layout_alignLeft="@+id/thepit_button"
+            android:layout_alignStart="@+id/thepit_button"/>
+    <Button
+            android:text="@string/narrows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/narrows_button"
+            android:layout_alignBaseline="@+id/construct_button" android:layout_alignBottom="@+id/construct_button"
+            android:layout_alignLeft="@+id/heretic_button" android:layout_alignStart="@+id/heretic_button"/>
+    <Button
+            android:text="@string/heretic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heretic_button" android:layout_alignBaseline="@+id/thepit_button"
+            android:layout_alignBottom="@+id/thepit_button" android:layout_alignLeft="@+id/guardian_button"
+            android:layout_alignStart="@+id/guardian_button"/>
+    <Button
+            android:text="@string/guardian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guardian_button"
+            android:layout_alignBaseline="@+id/onslaught_button" android:layout_alignBottom="@+id/onslaught_button"
+            android:layout_toRightOf="@+id/amplified_button" android:layout_toEndOf="@+id/amplified_button"/>
+    <Button
+            android:text="@string/amplified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/amplified_button" android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

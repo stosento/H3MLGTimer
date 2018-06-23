@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mccTimer</string>
+    <string name="construct">Construct</string>
+    <string name="the_pit">The Pit</string>
+    <string name="onslaught">Onslaught</string>
+    <string name="narrows">Narrows</string>
+    <string name="heretic">Heretic</string>
+    <string name="guardian">Guardian</string>
+    <string name="amplified">Amplified</string>
+</resources>
